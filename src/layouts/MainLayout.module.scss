@@ -1,0 +1,18 @@
+.header {
+  padding: 0 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.main {
+  min-height: calc(100vh - 64px - 69px);
+  // background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
+
+.footer {
+  text-align: center;
+  background-color: #f7f7f7;
+  border-top: 1px solid #e8e8e8;
+}
