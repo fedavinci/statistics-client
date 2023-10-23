@@ -1,3 +1,17 @@
+# 问卷低代码搭建平台
+
+## 项目描述
+该项目是一个调查问卷的搭建平台，具备问卷创建、保存、发布、答卷、统计的完整业务闭环
+
+## 核心技术
+React18、ahooks、Redux Toolkit、ReactRouter、AntDesign、TypeScript、Next.js、ReactDnD
+
+## 仓库地址
+https://github.com/fedavinci/statistics-client（B端）
+https://github.com/fedavinci/statistics-ssr（C端）
+https://github.com/fedavinci/statistics-mock（服务端Mock）
+https://github.com/fedavinci/statistics-cli（AIGC脚手架）
+
 ## 页面路由
 
 - [x] 首页：/
@@ -7,13 +21,12 @@
   - [x] 我的问卷：/manage/list
   - [x] 星标问卷：/manage/star
   - [x] 回收站：/manage/trash
-- [ ] 问卷详情：/question
-  - [ ] 编辑问卷：/question/edit/:id
-  - [ ] 问卷统计：/question/stat/:id
+- [x] 问卷详情：/question
+  - [x] 编辑问卷：/question/edit/:id
+  - [x] 问卷统计：/question/stat/:id
 - [x] 404：/404
 
 ## 界面的模块
-
 - 顶部栏
 - 左侧 - 组件库
 - 左侧 - 图层
@@ -23,7 +36,7 @@
 
 ## 功能列表
 
-顶部栏
+### 顶部栏
 - 返回
 - 显示标题，修改标题
 - 工具栏
@@ -36,12 +49,11 @@
 - 保存，自动保存，ctrl + s 快捷键
 - 发布
 
-左侧 组件库
+### 左侧 组件库
 - 显示组件列表
-    - （各个组件，看系统）
 - 点击添加组件到画布
 
-左侧 图层
+### 左侧 图层
 - 显示图层列表
 - 拖拽排序
 - 单击，选中
@@ -49,7 +61,7 @@
 - 隐藏
 - 锁定
 
-中间 画布
+### 中间 画布
 - 展示组件列表
 - Y 滚动条
 - 拖拽排序
@@ -62,12 +74,11 @@
     - ctrl + z , ctrl + shift + z
     - ctrl + s ，保存
 
-右侧 属性
+### 右侧 属性
 - 修改属性
 
-右侧 页面设置
+### 右侧 页面设置
 - 标题，描述
-- JS CSS 代码
 - tab 自动切换
 
 ## API设计
